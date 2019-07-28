@@ -1,18 +1,23 @@
 <?php
 //ini_set('display_errors', 'On');
 //error_reporting(E_ALL);
+
 spl_autoload_register('_autoload');
-//require_once __DIR__ . '/'.'SingleCase\SingleCaseDesignPattern'.'.php';
 function _autoload($className)
 {
     $file = str_replace('\\','/',__DIR__ . '/'.$className . '.php');
-    try{
+
+    if(file_exists($file)) {
         require_once $file;
-    }catch (Exception $e){
-        var_dump($e);
-        die(1);
+        return true;
     }
+
+    return false;
 }
 
-$signleCase=new \SingleCase\SingleCaseDesignPattern();
-$signleCase->testSomeThing();
+//test SingleCase
+$signleCase=\SingleCase\SingleCaseDesignPattern::getInstance();
+$signleCase->setConfig(3,5,6);
+var_dump($signleCase->getConfig());
+
+

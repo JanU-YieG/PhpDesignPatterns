@@ -6,17 +6,28 @@ use BaseClass\BaseClass;
 
 class SingleCaseDesignPattern extends BaseClass
 {
-    public function index()
+    private static $instance;
+    private $config=array();
+    private function __construct(){ }
+
+    public static function getInstance()
     {
-        $this->dd('dd','lll');
+        if(self::$instance){
+            return self::$instance;
+        }
+        self::$instance=new self();
+        return self::$instance;
     }
 
-    public function testSomeThing()
+    public function setConfig(...$var)
     {
-        $a=bcadd(4,5);
-        echo $a;
-        $this->dd(empty($a));
-        $a=null;
-        $this->dd(isset($a));
+        $this->config[]=$var;
     }
+
+    public function getConfig()
+    {
+        return $this->config;
+    }
+
+
 }
