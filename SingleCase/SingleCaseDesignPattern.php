@@ -19,14 +19,14 @@ class SingleCaseDesignPattern extends BaseClass
         return self::$instance;
     }
 
-    public function setConfig(...$var)
+    public function setConfig($index,...$var)
     {
-        $this->config[]=$var;
+        $this->config[$index]=$var;
     }
 
-    public function getConfig()
+    public function getConfig($index)
     {
-        return $this->config;
+        return $this->config[$index];
     }
 
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8e6c7c0-8b20-4f7d-91cc-f0a21a13b09b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SingleCase/SingleCaseDesignPattern.php" beforeDir="false" afterPath="$PROJECT_DIR$/SingleCase/SingleCaseDesignPattern.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
@@ -53,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564281553983</updated>
       <workItem from="1564281555093" duration="6984000" />
-      <workItem from="1564318546514" duration="4623000" />
+      <workItem from="1564318546514" duration="4934000" />
     </task>
     <servers />
   </component>

@@ -17,7 +17,7 @@ function _autoload($className)
 
 //test SingleCase
 $signleCase=\SingleCase\SingleCaseDesignPattern::getInstance();
-$signleCase->setConfig(3,5,6);
-var_dump($signleCase->getConfig());
+$signleCase->setConfig('first',3,5,6);
+var_dump($signleCase->getConfig('first'));
 
 
