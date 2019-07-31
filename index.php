@@ -6,7 +6,12 @@ require_once '_autoloadFile.php';
 //$signleCase->setConfig('first',3,5,6);
 //var_dump($signleCase->getConfig('first'));
 
-
+$testBuilder=new \BuilderPattern\TestBuilderPattern();
+var_dump($testBuilder->testBuildTruck());
+var_dump($testBuilder->testBuilderCar());
+foreach($testBuilder->testBuildTruck() as $v){
+    echo $v;
+}
 
 
 
