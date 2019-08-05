@@ -2,7 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8e6c7c0-8b20-4f7d-91cc-f0a21a13b09b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/FileLogger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/FileLoggerFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/Logger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/LoggerFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/StdoutLogger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/StdoutLoggerFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/TestFactoryPattern.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryPattern/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MultitonPattern/Multiton.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleFactoryPattern/Bicycle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleFactoryPattern/SimpleFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SimpleFactoryPattern/TestSimpleFactoryPattern.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SingletonPattern/SingleCaseDesignPattern.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/DigitalProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/DigitalProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/ProductFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/ShippableProduct.php" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/ShippableProduct.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractFactoryPattern/TestAbstractFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractFactoryPattern/TestAbstractFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/BuilderInterface/BuilderInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/BuilderInterface/BuilderInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/BuilderSpecific/CarBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/BuilderSpecific/CarBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/BuilderSpecific/TruckBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/BuilderSpecific/TruckBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/Director.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/Director.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/ProductBase/Vehicle.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/ProductBase/Vehicle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/ProductSpecific/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/ProductSpecific/Car.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/ProductSpecific/Truck.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/ProductSpecific/Truck.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/SpareParts/Door.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/SpareParts/Door.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/SpareParts/Engine.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/SpareParts/Engine.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/SpareParts/Wheel.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/SpareParts/Wheel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/TestBuilderPattern.php" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/TestBuilderPattern.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuilderPattern/readMe" beforeDir="false" afterPath="$PROJECT_DIR$/BuilderPattern/readMe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SingleCase/SingleCaseDesignPattern.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_autoloadFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/_autoloadFile.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,7 +100,9 @@
       <workItem from="1564281555093" duration="6984000" />
       <workItem from="1564318546514" duration="4934000" />
       <workItem from="1564403404739" duration="4223000" />
-      <workItem from="1564585679182" duration="4472000" />
+      <workItem from="1564585679182" duration="4638000" />
+      <workItem from="1564666437827" duration="3710000" />
+      <workItem from="1564891465801" duration="3853000" />
     </task>
     <servers />
   </component>
