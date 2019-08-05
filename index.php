@@ -1,5 +1,6 @@
 <?php
 require_once '_autoloadFile.php';
+require_once __DIR__.'/vendor/autoload.php';
 
 /*test SingletonPattern*/
 //$signleCase=\SingletonPattern\SingleCaseDesignPattern::getInstance();
@@ -28,6 +29,14 @@ require_once '_autoloadFile.php';
 /*test SimpleFactoryPattern*/
 //$simpleFactory=new \SimpleFactoryPattern\TestSimpleFactoryPattern();
 //$simpleFactory->testCanCreateBicycle();
+
+/*test PoolPattern*/
+//$testPool=new \PoolPattern\PoolTest();
+//$testPool->testCanNewInstancesWithGet();
+
+/*test PrototypePattern*/
+$testPrototype=new \PrototypePattern\PrototypeTest();
+$testPrototype->testCanGetFooBook();
 
 
 
