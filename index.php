@@ -35,8 +35,12 @@ require_once __DIR__.'/vendor/autoload.php';
 //$testPool->testCanNewInstancesWithGet();
 
 /*test PrototypePattern*/
-$testPrototype=new \PrototypePattern\PrototypeTest();
-$testPrototype->testCanGetFooBook();
+//$testPrototype=new \PrototypePattern\PrototypeTest();
+//$testPrototype->testCanGetFooBook();
+
+/*test CompositePattern*/
+//$test=new \CompositePattern\TestComposite();
+//$test->testRender();
 
 
 
